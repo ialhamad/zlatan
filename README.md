@@ -2,4 +2,4 @@
 
 ## Ibrahim is hereand this is my personal website
 
-![my website preview](https://raw.githubusercontent.com/ialhamad/zlatan/,aster/zlatan.png)
+![my website preview](https://raw.githubusercontent.com/ialhamad/zlatan/master/zlatan.png)
