@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(135deg, #03254c, #2a4a6f);
+  height: 100vh;
+  width: 100vw;
+}
+main {
+}
+.typography {
+  font-size: 56px;
+  color: #ffffff;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 20px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .weirdo {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  .weirdo svg {
+    height: 100vh;
+    width: 100vw;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .logo img {
+    width: 36px;
+    height: 36px;
+  }
+  .typography {
+    font-size: 32px;
+    padding: 20px;
+  }
+}
